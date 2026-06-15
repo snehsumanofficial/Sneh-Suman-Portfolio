@@ -229,30 +229,30 @@ h2.stitle::after{content:'';display:block;width:80px;height:3px;background:var(-
 .imp{display:inline;background:rgba(76,201,240,0.06);color:var(--cyan);padding:2px 10px;border-radius:6px;font-size:0.86em;font-weight:600;border:1px solid rgba(76,201,240,0.15);}
 
 /* ══ PROJECTS ══════════════════════════════════════ */
-.proj-showcase{display:flex;flex-direction:column;gap:56px;}
-.proj-detail{border-radius:var(--radius);padding:48px;cursor:none;transition:all var(--t);}
-.proj-detail:hover{border-color:rgba(247,37,133,0.25);box-shadow:0 35px 70px rgba(114,9,183,0.25);transform:translateY(-8px);}
-.proj-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:28px;gap:24px;flex-wrap:wrap;}
+.proj-showcase{display:flex;flex-direction:column;gap:32px;}
+.proj-detail{border-radius:var(--radius);padding:36px;cursor:none;transition:all var(--t);margin-bottom:10px;}
+.proj-detail:hover{border-color:rgba(247,37,133,0.25);box-shadow:0 30px 60px rgba(114,9,183,0.25);transform:translateY(-6px);}
+.proj-header{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:22px;gap:20px;flex-wrap:wrap;}
 .proj-header-left{flex:1;min-width:300px;}
-.proj-eye{font-family:'JetBrains Mono',monospace;font-size:0.68rem;color:var(--pink);letter-spacing:0.12em;text-transform:uppercase;margin-bottom:12px;font-weight:500;}
-.proj-title{font-family:'DM Serif Display',serif;font-size:1.7rem;color:var(--white);margin-bottom:12px;line-height:1.3;}
-.proj-desc{color:var(--muted);font-size:0.92rem;line-height:1.8;max-width:640px;}
-.proj-tags-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px;}
-.ptag{padding:5px 14px;background:rgba(114,9,183,0.08);border:1px solid rgba(114,9,183,0.2);border-radius:100px;font-size:0.7rem;color:var(--cyan);letter-spacing:0.06em;font-weight:500;}
-.proj-link-btn{display:inline-flex;align-items:center;gap:10px;padding:12px 26px;border-radius:100px;background:rgba(114,9,183,0.12);border:1px solid rgba(114,9,183,0.3);color:var(--cyan);text-decoration:none;font-size:0.8rem;font-weight:600;letter-spacing:0.04em;transition:all var(--t);margin-top:20px;align-self:flex-start;}
+.proj-eye{font-family:'JetBrains Mono',monospace;font-size:0.68rem;color:var(--pink);letter-spacing:0.12em;text-transform:uppercase;margin-bottom:10px;font-weight:500;}
+.proj-title{font-family:'DM Serif Display',serif;font-size:1.6rem;color:var(--white);margin-bottom:10px;line-height:1.3;}
+.proj-desc{color:var(--muted);font-size:0.9rem;line-height:1.75;max-width:640px;}
+.proj-tags-row{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px;}
+.ptag{padding:4px 12px;background:rgba(114,9,183,0.08);border:1px solid rgba(114,9,183,0.2);border-radius:100px;font-size:0.68rem;color:var(--cyan);letter-spacing:0.05em;font-weight:500;}
+.proj-link-btn{display:inline-flex;align-items:center;gap:10px;padding:10px 24px;border-radius:100px;background:rgba(114,9,183,0.12);border:1px solid rgba(114,9,183,0.3);color:var(--cyan);text-decoration:none;font-size:0.78rem;font-weight:600;letter-spacing:0.04em;transition:all var(--t);margin-top:16px;align-self:flex-start;}
 .proj-link-btn:hover{background:var(--grad-main);color:#fff;border-color:transparent;transform:translateY(-3px);box-shadow:0 10px 25px rgba(247,37,133,0.3);}
 
 /* Project Video Player */
-.proj-video-section{margin-top:34px;}
-.proj-video-section h4{font-family:'JetBrains Mono',monospace;font-size:0.7rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--pink);margin-bottom:18px;display:flex;align-items:center;gap:10px;font-weight:600;}
+.proj-video-section{margin-top:28px;}
+.proj-video-section h4{font-family:'JetBrains Mono',monospace;font-size:0.68rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--pink);margin-bottom:14px;display:flex;align-items:center;gap:10px;font-weight:600;}
 .proj-video-section h4::before{content:'▶';color:var(--cyan);font-size:0.7rem;}
 .video-player{position:relative;border-radius:16px;overflow:hidden;border:1px solid rgba(255,255,255,0.08);background:#020108;max-width:100%;transition:all var(--t);}
 .video-player:hover{border-color:rgba(76,201,240,0.3);box-shadow:0 15px 40px rgba(76,201,240,0.15);}
 .video-player video{width:100%;display:block;border-radius:16px;}
 
 /* Project Image Gallery */
-.proj-gallery{margin-top:34px;}
-.proj-gallery h4{font-family:'JetBrains Mono',monospace;font-size:0.7rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--pink);margin-bottom:18px;display:flex;align-items:center;gap:10px;font-weight:600;}
+.proj-gallery{margin-top:28px;}
+.proj-gallery h4{font-family:'JetBrains Mono',monospace;font-size:0.68rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--pink);margin-bottom:14px;display:flex;align-items:center;gap:10px;font-weight:600;}
 .proj-gallery h4::before{content:'🖼';font-size:0.8rem;}
 .gallery-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px;}
 .gallery-item{position:relative;border-radius:14px;overflow:hidden;border:1px solid rgba(255,255,255,0.06);cursor:none;transition:all var(--t);aspect-ratio:16/10;}
@@ -262,9 +262,9 @@ h2.stitle::after{content:'';display:block;width:80px;height:3px;background:var(-
 .gallery-item:hover .gallery-overlay{opacity:1;}
 .gallery-overlay span{font-size:0.75rem;color:var(--white);font-weight:600;letter-spacing:0.04em;}
 
-/* ══ SIMPLE PROJECTS (Agent Onboarding) ════════════ */
-.proj-simple{border-radius:var(--radius);padding:38px;cursor:none;transition:all var(--t);}
-.proj-simple:hover{transform:translateY(-6px);border-color:rgba(247,37,133,0.25);box-shadow:0 28px 55px rgba(114,9,183,0.22);}
+/* ══ SIMPLE PROJECTS ═══════════════════════════════ */
+.proj-simple{border-radius:var(--radius);padding:34px;cursor:none;transition:all var(--t);margin-bottom:10px;}
+.proj-simple:hover{transform:translateY(-4px);border-color:rgba(247,37,133,0.25);box-shadow:0 24px 50px rgba(114,9,183,0.22);}
 
 /* ══ SKILLS ════════════════════════════════════════ */
 #skills{padding-top:160px;}
@@ -438,7 +438,7 @@ footer span{color:var(--pink);font-weight:600;}
   <div class="grid-bg"></div>
   <div class="hero-grid">
     <div class="hero-content">
-      <div class="hero-tag"><span class="dot"></span> Available for MT &amp; PM Roles</div>
+      <div class="hero-tag"><span class="dot"></span> Available for Product Manager Role</div>
       <h1 class="hero-name gtext" id="heroName">Sneh Suman.</h1>
       
       <!-- Typing Subtitle Container -->
@@ -457,8 +457,8 @@ footer span{color:var(--pink);font-weight:600;}
       <!-- PM KPI Dashboard Metrics -->
       <div class="hero-metrics">
         <div class="metric-card reveal">
-          <span class="metric-number" data-target="3.2" data-suffix="L Cr+">0</span>
-          <p class="metric-label">Addressable Market Sized</p>
+          <span class="metric-number" data-target="30" data-prefix="+" data-suffix="%">0%</span>
+          <p class="metric-label">Digital Conversion Roadmap Target</p>
           <svg class="metric-sparkline" viewBox="0 0 100 20" width="100%">
             <path d="M0,15 Q25,5 50,12 T100,5" fill="none" stroke="url(#kpiGrad)" stroke-width="2"/>
             <defs>
@@ -512,7 +512,7 @@ footer span{color:var(--pink);font-weight:600;}
   <div class="about-grid">
     <div class="about-text reveal">
       <p>I am a **Product &amp; Strategy Manager** specializing in marketing analytics, lead generation, and campaign execution. Currently a Management Trainee (Product Manager) at **ICICI Prudential Life Insurance** owning digital roadmap initiatives.</p>
-      <p>My craft sits at the intersection of funnel optimization, GTM playbooks, and CRM lead routing. I've designed campaigns to recover pre-conversion drop-offs, modeled market sizes at <strong>₹3.2L Cr+</strong>, and aligned cross-functional teams across IT, Marketing, and Digital departments to deliver measurable growth outcomes.</p>
+      <p>My craft sits at the intersection of funnel optimization, GTM playbooks, and CRM lead routing. I've designed campaigns to recover pre-conversion drop-offs and aligned cross-functional teams across IT, Marketing, and Digital departments to deliver measurable growth outcomes.</p>
       <p>In addition, I'm a <strong>Product Manager Fellow at NextLeap</strong>, where my work includes the **Context Calibration Engine** for ChatGPT workflows, alongside other AI-driven recommendation and digital onboarding systems.</p>
       <div style="margin-top:34px;">
         <a href="mailto:snehsuman.official@gmail.com" class="contact-row"><span class="ico">✉</span>snehsuman.official@gmail.com</a>
@@ -523,7 +523,7 @@ footer span{color:var(--pink);font-weight:600;}
     <div class="reveal">
       <div class="hi-card glass-card gradient-border shimmer-trigger">
         <h4>Strategic GTM Planner</h4>
-        <p>Modeled ₹3.2L Cr+ addressable market size with projected 15-20% digital opex reduction presented to senior leadership.</p>
+        <p>Modeled projected 15-20% digital opex reduction from digital automation presented to senior leadership.</p>
       </div>
       <div class="hi-card glass-card gradient-border shimmer-trigger">
         <h4>Funnel &amp; Growth Analyst</h4>
@@ -554,7 +554,6 @@ footer span{color:var(--pink);font-weight:600;}
         <li>Spotted a <span class="imp">73% digital drop-off</span> before product selection at ICICI Prudential - defined the problem, wrote the product brief, and pitched the solution to senior stakeholders across Digital, Marketing, and IT.</li>
         <li>Built <span class="imp">My Mentor</span> from zero - an AI-powered insurance recommendation chatbot covering <span class="imp">6 product lines</span> (Term, ULIP, Savings, Retirement, Child, Health); owned the full PRD, user journey mapping, intent engine logic, advisor handoff flows, and a working React prototype that is live today.</li>
         <li>Defined a 3-phase roadmap targeting <span class="imp">+30% digital lead-to-policy conversion</span> in 6 months - Phase 1: staging + baseline metrics; Phase 2: CRM integration + regional language support; Phase 3: Video KYC and LLM upgrade for open-ended advisory.</li>
-        <li>Sized the business case at <span class="imp">₹3.2L Cr+</span> addressable market with projected 15–20% opex reduction in digital support costs and callback conversion target of <span class="imp">≥ 20%</span>.</li>
       </ul>
     </div>
     <div class="tl-item reveal">
@@ -598,7 +597,57 @@ footer span{color:var(--pink);font-weight:600;}
   <h2 class="stitle">Product Work &amp; Campaigns</h2>
   <div class="proj-showcase">
 
-    <!-- Project 1: Context Calibration Engine -->
+    <!-- Project 1: My Mentor (Chatbot) -->
+    <div class="proj-detail glass-card gradient-border reveal shimmer-trigger" id="proj-mymentor">
+      <div class="proj-header">
+        <div class="proj-header-left">
+          <p class="proj-eye">AI Chatbot · ICICI Prudential · 2026</p>
+          <h3 class="proj-title">My Mentor — AI-Powered Insurance Recommendation Chatbot</h3>
+          <p class="proj-desc">Built from zero an AI recommendation chatbot covering 6 core product lines (Term, ULIP, Savings, Retirement, Child, Health). Owned the complete PRD, user journey mapping, intent engine logic, advisor handoff flows, and a working React prototype.</p>
+          <div class="proj-tags-row"><span class="ptag">AI Chatbot</span><span class="ptag">PRD</span><span class="ptag">React Prototype</span><span class="ptag">Intent Logic</span><span class="ptag">LLM/RAG</span></div>
+          <a href="https://preview--mentor-icici-insight.lovable.app/" target="_blank" class="proj-link-btn">View Live Demo ↗</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 2: VKYC Digital Onboarding -->
+    <div class="proj-detail glass-card gradient-border reveal shimmer-trigger" id="proj-vkyc">
+      <div class="proj-header">
+        <div class="proj-header-left">
+          <p class="proj-eye">Fintech · Onboarding · 2025</p>
+          <h3 class="proj-title">Expertise in Digital Onboarding &amp; VKYC Demos</h3>
+          <p class="proj-desc">Designed live prototypes and user flows optimized for digital onboarding and video verification (VKYC) for banks and fintech platforms to streamline user acquisition rates.</p>
+          <div class="proj-tags-row"><span class="ptag">VKYC</span><span class="ptag">Digital Onboarding</span><span class="ptag">Fintech UX</span><span class="ptag">Wireframe Demo</span><span class="ptag">Funnel Recovery</span></div>
+          <a href="https://preview--aurawise-onboard-ai.lovable.app/" target="_blank" class="proj-link-btn">View Live Demo ↗</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 3: Zomato AI -->
+    <div class="proj-detail glass-card gradient-border reveal shimmer-trigger" id="proj-zomato">
+      <div class="proj-header">
+        <div class="proj-header-left">
+          <p class="proj-eye">AI · Zomato · 2026</p>
+          <h3 class="proj-title">AI-Powered Restaurant Recommendation System</h3>
+          <p class="proj-desc">An intelligent recommendation engine for Zomato that goes beyond basic filters — factoring contextual signals like group composition, occasion, and dining history to personalise discovery at scale.</p>
+          <div class="proj-tags-row"><span class="ptag">AI/ML</span><span class="ptag">Personalisation</span><span class="ptag">Discovery</span><span class="ptag">Streamlit</span></div>
+          <a href="https://drive.google.com/drive/folders/15tZC6I4VgIKZc9uJI39xROjgE4lRw6Pj" target="_blank" class="proj-link-btn">View Project Files ↗</a>
+        </div>
+      </div>
+
+      <!-- Video -->
+      <div class="proj-video-section">
+        <h4>Product Demo Video</h4>
+        <div class="video-player reveal-image">
+          <video controls preload="metadata">
+            <source src="assets/videos/Zomato AI — Restaurant Recommendations · Streamlit - Google Chrome 2026-04-26 10-28-33.mp4" type="video/mp4"/>
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project 4: Context Calibration Engine -->
     <div class="proj-detail glass-card gradient-border reveal shimmer-trigger" id="proj-chatgpt">
       <div class="proj-header">
         <div class="proj-header-left">
@@ -651,54 +700,6 @@ footer span{color:var(--pink);font-weight:600;}
           </div>
         </div>
       </div>
-    </div>
-
-    <!-- Project 2: Zomato AI -->
-    <div class="proj-detail glass-card gradient-border reveal shimmer-trigger" id="proj-zomato">
-      <div class="proj-header">
-        <div class="proj-header-left">
-          <p class="proj-eye">AI · Zomato · 2026</p>
-          <h3 class="proj-title">AI-Powered Restaurant Recommendation System</h3>
-          <p class="proj-desc">An intelligent recommendation engine for Zomato that goes beyond basic filters — factoring contextual signals like group composition, occasion, and dining history to personalise discovery at scale.</p>
-          <div class="proj-tags-row"><span class="ptag">AI/ML</span><span class="ptag">Personalisation</span><span class="ptag">Discovery</span><span class="ptag">Streamlit</span></div>
-          <a href="https://drive.google.com/drive/folders/15tZC6I4VgIKZc9uJI39xROjgE4lRw6Pj" target="_blank" class="proj-link-btn">View Project Files ↗</a>
-        </div>
-      </div>
-
-      <!-- Video -->
-      <div class="proj-video-section">
-        <h4>Product Demo Video</h4>
-        <div class="video-player reveal-image">
-          <video controls preload="metadata">
-            <source src="assets/videos/Zomato AI — Restaurant Recommendations · Streamlit - Google Chrome 2026-04-26 10-28-33.mp4" type="video/mp4"/>
-            Your browser does not support the video tag.
-          </video>
-        </div>
-      </div>
-    </div>
-
-    <!-- Project 3: My Mentor (Chatbot) -->
-    <div class="proj-simple glass-card gradient-border reveal shimmer-trigger">
-      <p class="proj-eye">AI Chatbot · ICICI Prudential · 2026</p>
-      <h3 class="proj-title" style="font-family:'DM Serif Display',serif;font-size:1.4rem;margin-bottom:12px;">My Mentor — AI-Powered Insurance Recommendation Chatbot</h3>
-      <p style="color:var(--muted);font-size:0.88rem;line-height:1.7;">Built from zero an AI recommendation chatbot covering 6 core product lines (Term, ULIP, Savings, Retirement, Child, Health). Owned the complete PRD, user journey mapping, intent engine logic, advisor handoff flows, and a working React prototype.</p>
-      <div class="proj-tags-row"><span class="ptag">AI Chatbot</span><span class="ptag">PRD</span><span class="ptag">React Prototype</span><span class="ptag">Intent Logic</span></div>
-    </div>
-
-    <!-- Project 4: VKYC Digital Onboarding -->
-    <div class="proj-simple glass-card gradient-border reveal shimmer-trigger">
-      <p class="proj-eye">Fintech · Onboarding · 2025</p>
-      <h3 class="proj-title" style="font-family:'DM Serif Display',serif;font-size:1.4rem;margin-bottom:12px;">Expertise in Digital Onboarding &amp; VKYC Demos</h3>
-      <p style="color:var(--muted);font-size:0.88rem;line-height:1.7;">Designed live prototypes and user flows optimized for digital onboarding and video verification (VKYC) for banks and fintech platforms to streamline user acquisition rates.</p>
-      <div class="proj-tags-row"><span class="ptag">VKYC</span><span class="ptag">Digital Onboarding</span><span class="ptag">Fintech UX</span><span class="ptag">Wireframe Demo</span></div>
-    </div>
-
-    <!-- Project 5: Agent Onboarding Portal (Simple Card) -->
-    <div class="proj-simple glass-card gradient-border reveal shimmer-trigger">
-      <p class="proj-eye">InsurTech · ICICI Prudential · 2025</p>
-      <h3 class="proj-title" style="font-family:'DM Serif Display',serif;font-size:1.4rem;margin-bottom:12px;">Agent Onboarding Portal Gap Analysis</h3>
-      <p style="color:var(--muted);font-size:0.88rem;line-height:1.7;">Led the benchmarking and gap analysis of ICICI Prudential's advisor portal against four major competitors, mapping out UX updates and capabilities adopted directly into the senior leadership roadmap.</p>
-      <div class="proj-tags-row"><span class="ptag">Benchmarking</span><span class="ptag">Competitor Analysis</span><span class="ptag">UX Gap Mapping</span></div>
     </div>
 
   </div>
@@ -1033,7 +1034,7 @@ footer span{color:var(--pink);font-weight:600;}
 ═══════════════════════════════════════════════════ */
 (function(){
   const subtitle=document.getElementById('heroSubtitle');
-  const phraseList=["Product Manager","Management Trainee: (Product Manager)","Strategy & Digital Products","NextLeap PM Fellow"];
+  const phraseList=["Product Manager","Strategy &amp; Digital Products","NextLeap PM Fellow"];
   let phraseIdx=0;
   let letterIdx=0;
   let deleting=false;
@@ -1042,11 +1043,11 @@ footer span{color:var(--pink);font-weight:600;}
   function type(){
     const currentPhrase=phraseList[phraseIdx];
     if(deleting){
-      subtitle.textContent=currentPhrase.substring(0,letterIdx-1);
+      subtitle.innerHTML=currentPhrase.substring(0,letterIdx-1);
       letterIdx--;
       typingSpeed=45;
     }else{
-      subtitle.textContent=currentPhrase.substring(0,letterIdx+1);
+      subtitle.innerHTML=currentPhrase.substring(0,letterIdx+1);
       letterIdx++;
       typingSpeed=90;
     }
